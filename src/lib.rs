@@ -3,8 +3,8 @@ extern crate libc;
 use std::*;
 
 #[allow(dead_code, non_camel_case_types)]
-mod bladerf;
-use bladerf::*;
+pub mod sys;
+use sys::*;
 
 // Macro to simplify integer returns
 macro_rules! handle_res {
