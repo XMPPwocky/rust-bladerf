@@ -674,7 +674,7 @@ impl BladeRFDevice {
 
 #[cfg(test)]
 mod tests {
-	use bladerf::*;
+	use sys::*;
 
 	#[test]
 	fn test_list_devices() {
