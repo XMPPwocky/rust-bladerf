@@ -42,6 +42,7 @@ pub struct BladeRFConfig {
 
 #[repr(C)]
 #[repr(packed)]
+#[derive(Copy, Clone, Debug, Default)]
 pub struct iq {
 	pub i: i16,
 	pub q: i16
